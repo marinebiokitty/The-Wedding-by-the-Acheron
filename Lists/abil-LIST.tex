@@ -109,25 +109,109 @@
   }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\NEW{Abil}{\aTruthing}{
-  \s\MYname	{Royal Truthing Magic}
+%Salo, Maxenes, Meizon, Cryseon (and possibly Delia and Moenia, if they tell 12+ fortunes)
+%Dusty Diadem adds one instance of truthing
+\NEW{Abil}{\aTruthingOne}{
+  \s\MYname	{Royal Truthing Magic (1x)}
   \s\MYtext	{You can use magic to determine how truthful someone's statement is. Show your target the "Truthing" greensheet for further details.}
   \s\MYeffect	{I observe you and use royal magic to determine your honesty. This is obvious to everyone within sight.}
   }
-  
-  \NEW{Abil}{\aTruthingResistance}{
-  \s\MYname	{Truthing Resistance}
+%Eidola, Hiems
+\NEW{Abil}{\aTruthingTwo}{
+  \s\MYname	{Royal Truthing Magic (2x)}
+  \s\MYtext	{You can use magic to determine how truthful someone's statement is. Show your target the "Truthing" greensheet for further details.}
+  \s\MYeffect	{I observe you and use royal magic to determine your honesty. This is obvious to everyone within sight.}
+  }
+%Paldeen
+  \NEW{Abil}{\aTruthingResistanceOne}{
+  \s\MYname	{Truthing Resistance (1x)}
   \s\MYtext	{Thanks to years of practice, you have gained an ability that has never before been heard of-- you can resist royal truthing magic. If someone uses the truthing magic mechanic to judge one of your statements, then they will ask you to rate how straightforward and informed your statement is. You can respond to their questioning by giving any ratings that you want.}
   \s\MYeffect	{I appear completely vulnerable to truthing magic.}
   }
-   \NEW{Abil}{\aFirstAid}{
-  \s\MYname	{First Aid}
-  \s\MYtext	{You administer non-magical first aid to someone unconscious. After you treat your patient for two minutes, they wake up.}
-  \s\MYeffect	{I am applying non-magical first aid to an unconscious person.}
+ %Eidola
+    \NEW{Abil}{\aTruthingResistanceTwo}{
+  \s\MYname	{Truthing Resistance (2x)}
+  \s\MYtext	{Thanks to years of practice, you have gained an ability that has never before been heard of-- you can resist royal truthing magic. If someone uses the truthing magic mechanic to judge one of your statements, then they will ask you to rate how straightforward and informed your statement is. You can respond to their questioning by giving any ratings that you want.}
+  \s\MYeffect	{I appear completely vulnerable to truthing magic.}
   }
-  
+%Ghosts
    \NEW{Abil}{\aSoulAttack}{
   \s\MYname	{Soul Attack}
   \s\MYtext	{You use otherworldly energy to attack your target's very soul.}
-  \s\MYeffect	{A black zigzag strikes you, dealing 1 unit of psychic damage.}
+  \s\MYeffect	{A black zigzag strikes you, dealing 1 unit of psychic damage, reducing you to a minimum of 0 psychic health.}
   }
+  %Leda, Izdubar
+     \NEW{Abil}{\aKillingBlow}{
+  \s\MYname	{Killing Blow (1x)}
+  \s\MYtext	{Either through a flurry of well-aimed blows or through strangulation (your choice), you can inflict a killing blow upon an unconscious, willing or paralyzed victim. This mechanic requires a 5-count and is interruptible; you can reuse this ability if interrupted. Your CR must be at least 1 to use this technique.}
+  \s\MYeffect	{I physically assault you with deadly force.}
+  }
+    %Leda, Izdubar, Maxenes, Prymnesios
+       \NEW{Abil}{\aTamper}{
+  \s\MYname	{Food Tampering}
+  \s\MYtext	{You can lace a food item with another chemical (an item numbered between 0016 and 0021). Hold the food item in one hand and the chemical in the other hand for one minute. Then place the chemical inside the food item's envelope and put a sticker on the outside of the envelope. This is an interruptible mechanic.}
+  \s\MYeffect	{I am lacing this food with another chemical.}
+  }
+    %Leda, Izdubar
+       \NEW{Abil}{\aNeedlePoison}{
+  \s\MYname	{Sly Poisoning}
+  \s\MYtext	{You can stealthily murder someone by stabbing them precisely with a poisoned sewing needle (item #0009). First sneak up on them, spending one minute within 1 ZOC of them. Then put a sticker on them, consuming the needle. If you are noticed or interrupted when placing the sticker, the attempt fails, but the needle is not consumed. If the attempt succeeds, tell a GM immediately.}
+  \s\MYeffect	{You collapse, dead. This is an acute poisoning effect.}
+  }
+  %Leda, Izdubar
+\NEW{Abil}{\aImprovedWaylay}{
+  \s\MYname	{Improved Waylay}
+  \s\MYtext	{You can waylay someone in 5-seconds.}
+  \s\MYeffect	{I swiftly knock you out.}
+  }
+  %Salo
+\NEW{Abil}{\aFistOfWrath}{
+  \s\MYname	{Fist of Wrath (1x)}
+  \s\MYtext	{If you are firmly convinced that someone is responsible for your mother's death, you can inflict a killing blow upon them, provided they are unconscious, willing or paralyzed. Your CR must be at least 1 to use this ability.}
+  \s\MYeffect	{I attack you with deadly force, propelled by vengeful rage.}
+  }
+  %Delia, Eidola, Maxenes, Izdubar, Leda
+\NEW{Abil}{\aLockpicking}{
+  \s\MYname	{Lockpicking}
+  \s\MYtext	{To pick a lock, roll a d20 until you roll an odd number. Count how many rolls you make before this happens. You succeed if your total number of rolls is greater than or equal to the lock's Difficulty stat; otherwise, you can try again. If you a roll a 1, you make a clumsy, obvious mistake; write "Tampered With" on the lock's sign.}
+  \s\MYeffect	{I am tampering with this lock.}
+  }
+  %Delia
+  \NEW{Abil}{\aImprovedLockpicking}{
+  \s\MYname	{Improved Lockpicking}
+  \s\MYtext	{When lockpicking, you can treat every lock's Difficulty as 1 point lower.}
+  \s\MYeffect	{I am excellent at picking locks.}
+  }
+  
+ %Moenia
+\NEW{Abil}{\aSoullessness}{
+  \s\MYname	{Soullessness}
+  \s\MYtext	{You lack a soul. You do not have a max psychic health and are unaffected by psychic damage.  You believe that you will be hurt by your soulessness after your death. }
+  \s\MYeffect	{I am unaffected by psychic damage.}
+  }
+  
+ %Max, Eidola
+\NEW{Abil}{\aBluffmasterCommon}{
+  \s\MYname	{Bluffmaster Talent (Unlimited Uses)}
+  \s\MYtext	{You can treat your Bluffmaster roll as 2 higher.}
+  \s\MYeffect	{My roll is treated as 2 higher.}
+}
+   %Semiramis, Paldeen, Fresi, Hiems
+\NEW{Abil}{\aBluffmasterMedium}{
+  \s\MYname	{Bluffmaster Talent (3x)}
+  \s\MYtext	{You can treat your Bluffmaster roll as 4 higher.}
+  \s\MYeffect	{My roll is treated as 4 higher.}
+  }
+  
+%Delia, Leda
+\NEW{Abil}{\aBluffmasterRare}{
+  \s\MYname	{Bluffmaster Talent (2x)}
+  \s\MYtext	{You can treat your Bluffmaster roll as 6 higher.}
+  \s\MYeffect	{My roll is treated as 6 higher.}
+}
+ %Max
+\NEW{Abil}{\aBluffmasterInsight}{
+  \s\MYname	{Bluffmaster Insight (3x)}
+  \s\MYtext	{Thanks to experience, you can analyze other people's playing styles. You must watch someone play for a full round before using this ability on them.}
+  \s\MYeffect	{I observe your playing style. Show me your Bluffmaster abilities, if any.}
+}
