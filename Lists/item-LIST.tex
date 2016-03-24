@@ -216,27 +216,34 @@
   \s\MYname	{Handkerchief}
   \s\MYnumber	{0008}
   \s\MYtext	{A sunny yellow handkerchief. If you touch this with your bare skin, open the envelope and read anything inside.}
+        \s\MYcontents{You become paralyzed-- frozen in place-- as long as you hold this. You also feel searing nerve pain. This is an acute poisoning effect.}
   }
       \NEW{Item}{\iNeedle}{
   \s\MYname	{Sewing Needle}
   \s\MYnumber	{0009}
-  \s\MYtext	{A sewing needle.}
-  }
-  \NEW{Item}{\iFruit}{
+  \s\MYtext	{A sharp sewing needle.}
+  }      
+  \NEW{ItemEnvelope}{\iFruit}{
   \s\MYname	{Local Fruit}
   \s\MYnumber	{0010}
   \s\MYtext	{An unusual melon-like fruit, sliced and grilled.}
+    \s\MYcontents	{}
   }
-  \NEW{Item}{\iCake}{
+  \NEW{ItemEnvelope}{\iCake}{
   \s\MYname	{Wedding Bread}
   \s\MYnumber	{0011}
   \s\MYtext	{A small spelt cake.}
+      \s\MYcontents	{}
+
   }
-    \NEW{Item}{\iPastry}{
+    \NEW{ItemEnvelope}{\iPastry}{
   \s\MYname	{Savory Pastry}
   \s\MYnumber	{0012}
   \s\MYtext	{A pastry filled with spiced meat.}
+      \s\MYcontents	{}
+
   }
+    
  
         \NEW{Item}{\iFakeDiadem}{
   \s\MYname	{Shiny Diadem}
@@ -252,7 +259,7 @@
   \s\MYname	{Thin Brown Liquid}
   \s\MYnumber	{0016}
   \s\MYtext	{Open if you ingest this.}
-  \s\MYcontents	{You are cured of any acute poisoning effects currently affecting you. You are also unaffected by any acute poisoning effects that start in the next twenty minutes.}
+  \s\MYcontents	{You are cured of any acute poisoning effects currently affecting you. You also do not notice and are unaffected by any acute poisoning effects that start in the next twenty minutes.}
   }
     \NEW{ItemFold}{\iChronicPoisonRemedy}{
   \s\MYname	{Thick Black Goop}
@@ -271,6 +278,11 @@
   \s\MYnumber	{0019}
   \s\MYtext	{Open if you ingest this.}
   \s\MYcontents	{If you are suffering from psychic damage, your psychic health improves by 1. Also, roll a d20. If your roll is more than 19, your psychic health max increases by 1, to a max of 7.}
+  }
+         \NEW{Item}{\iBlackmail}{
+  \s\MYname	{Contract}
+  \s\MYnumber	{0020}
+  \s\MYtext	{A complete, magically verified contract showing that \cMerchant{\nickname} is guilty of embezzlement.}
   }
   
   \NEW{ItemEnvelope}{\iEtruriaCommunicator}{
