@@ -1,2 +1,1 @@
-\edef\gamepath{"C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/"}
-
+\edef\gamepath{"/Users/maitreebanerjee/Documents/The-Wedding-by-the-Acheron"}
