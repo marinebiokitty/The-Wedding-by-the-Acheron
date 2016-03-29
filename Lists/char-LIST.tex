@@ -128,7 +128,8 @@
 \pronoun{\Human}	{Man}{Woman}{Human}
 \pronoun{\sex}		{male}{female}{neuter}
 \pronoun{\Sex}		{Male}{Female}{Neuter}
-\pronoun{\King}		{King}{Queen}{Majesty}
+\pronoun{\Monarch}		{King}{Queen}{Majesty}
+\pronoun{\monarch}		{king}{queen}{majesty}
 \pronoun{\Prince}		{Prince}{Princess}{Heir}
 \pronoun{\prince}		{prince}{princess}{heir}
 
@@ -188,20 +189,22 @@
    \s\MYname	{Izdubar}
    \s\MYfile	{Anarchist.tex}
    \s\MYsex {\male}
-   \s\MYnumber	{}
+   \s\MYnumber	{0001}
    \s\MYdesc     {}
 	 \s\MYplayer	{}
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aKillingBlow {}\aTamper{}\aNeedlePoison{}\aImprovedWaylay{}\aFirstAid{}\aChronicPoisoning{}\aAcutePoisoningResistance{}} 
+   \s\MYitems	{\iUnconsciousnessPoison{}\iUnconsciousnessPoison{}\iCRPoison{}\iCRPoison{}}
+
   \s\MYwhites	{}
-  \s\MYmems {}
+  \s\MYmems {\mAllergy{}}
 }  
 
-\NEW{PC}{\cArcheologist}{
+\NEW{PC}{\cArchaeologist}{
    \s\MYname	{}
-   \s\MYfile	{Archeologist.tex}
+   \s\MYfile	{Archaeologist.tex}
    \s\MYsex {\female}
    \s\MYnumber	{}
    \s\MYdesc     {}
@@ -209,7 +212,7 @@
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aBluffmasterMedium{}\aFirstAid{}} 
   \s\MYwhites	{}
   \s\MYmems {}
 } 
@@ -224,9 +227,9 @@
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aBluffmasterMedium{}\aHack{}} 
   \s\MYwhites	{}
-  \s\MYmems {}
+  \s\MYmems {\mFresiExplosives{}\mFresiPoisonOne{}\mFresiPoisonTwo{}\mHackEtruria{}\mHackScythia{}}
 }
 
 \NEW{PC}{\cAssassin}{
@@ -239,9 +242,11 @@
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aFirstAid{}\aAcutePoisoningResistance{}\aKillingBlow{}\aTamper{}\aNeedlePoison{}\aImprovedWaylay{}\aBluffmasterRare{}} 
+     \s\MYitems	{\iUnconsciousnessPoison{}\iUnconsciousnessPoison{}\iCRPoison{}\iCRPoison{}}
+
   \s\MYwhites	{}
-  \s\MYmems {}
+  \s\MYmems {\mThief{}}
 }  
 
 \NEW{PC}{\cBride}{
@@ -254,9 +259,9 @@
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aTruthingTwo{}\aTruthingResistanceTwo{}\aBluffmasterCommon{}\aAlcoholismBeginning{}} 
   \s\MYwhites	{}
-  \s\MYmems {}
+  \s\MYmems {\mAlcoholism{}}
 }  
 
 \NEW{PC}{\cButler}{
@@ -266,10 +271,11 @@
    \s\MYnumber	{}
    \s\MYdesc     {}
 	 \s\MYplayer	{}
-  
+       \s\MYitems	{\iSugar{}}
+
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aTamper{}\aFirstAid{}} 
   \s\MYwhites	{}
   \s\MYmems {}
 } 
@@ -284,7 +290,7 @@
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aFirstAid{}\aSoullessness{}} 
   \s\MYwhites	{}
   \s\MYmems {}
 } 
@@ -299,7 +305,7 @@
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aFirstAid{}\aTruthingOne{}} 
   \s\MYwhites	{}
   \s\MYmems {}
 } 
@@ -314,9 +320,10 @@
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aTruthingTwo{}\aBluffmasterMedium{}\aTruthingTwo{}} 
+       \s\MYitems	{\iBlackmail{}}
   \s\MYwhites	{}
-  \s\MYmems {}
+  \s\MYmems {\mAchillea{}}
 }
 
 \NEW{PC}{\cScythiaKing}{
@@ -329,7 +336,7 @@
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aTruthingOne{}\aAlcoholism{}} 
   \s\MYwhites	{}
   \s\MYmems {}
 }
@@ -344,9 +351,9 @@
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aTruthingResistanceOne{}\aBluffmasterMedium{}} 
   \s\MYwhites	{}
-  \s\MYmems {}
+  \s\MYmems {\mAllergy{}}
 }
 
 \NEW{PC}{\cPoet}{
@@ -359,7 +366,7 @@
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aFistOfWrath{}\aPoetryBonus{}\aTruthingOne{}} 
   \s\MYwhites	{}
   \s\MYmems {}
 }
@@ -374,22 +381,22 @@
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aTruthingOne{}} 
   \s\MYwhites	{}
   \s\MYmems {}
 }
 
 \NEW{PC}{\cWard}{
-   \s\MYname	{}
+   \s\MYname	{Maxenes}
    \s\MYfile	{Ward.tex}
-   \s\MYsex {Maxenes}
-   \s\MYnumber	{\male}
+   \s\MYsex {\male}
+   \s\MYnumber	{}
    \s\MYdesc     {}
 	 \s\MYplayer	{}
   
   \s\MYblues	{}
   \s\MYgreens	{}
-  \s\MYabils	{} 
+  \s\MYabils	{\aTamper{}\aBluffmasterCommon{}\aBluffmasterInsight{}\aFirstAid{}\aTruthingOne{}} 
   \s\MYwhites	{}
   \s\MYmems {}
 }

@@ -183,19 +183,19 @@
       \NEW{Item}{\iAle}{
   \s\MYname	{Bottle of Golden Ale}
   \s\MYnumber	{0002}
-  \s\MYtext	{A bottle of ale. 1-hand bulky.}
+  \s\MYtext	{A bottle of ale. If you consume this, destroy this card and act tipsy for the next five minutes. Also, roll a d20; if your roll is less than 11, you take 1 point of psychic damage. 1-hand bulky.}
   }
   %12 copies in Salo's trunk
         \NEW{Item}{\iCider}{
   \s\MYname	{Bottle of Hard Cider}
   \s\MYnumber	{0003}
-  \s\MYtext	{A bottle of hard cider. 1-hand bulky.}
+  \s\MYtext	{A bottle of hard cider. f you consume this, destroy this card and act tipsy for the next five minutes. Also, roll a d20; if your roll is less than 11, you take 1 point of psychic damage. 1-hand bulky.}
   }
   %2 in Paldeen's trunk
         \NEW{Item}{\iGoldBottle}{
   \s\MYname	{Golden Bottle of Honeyed Mead}
   \s\MYnumber	{0004}
-  \s\MYtext	{A solid gold bottle of honeyed mead. 1-hand bulky.}
+  \s\MYtext	{A solid gold bottle of excellent honeyed mead. f you consume this, destroy this card and act tipsy for the next five minutes. Also, roll a d20; if your roll is less than 11, you take 1 point of psychic damage. 1-hand bulky.}
   }
   %One in Maxenes' trunk, two with Salo's trunk
     \NEW{ItemEnvelope}{\iCarton}{
@@ -318,11 +318,11 @@
   \s\MYtext	{Open if you ingest this.}
   \s\MYcontents	{If you are suffering from psychic damage, your psychic health improves by 1. Also, roll a d20. If your roll is more than 19, your psychic health max increases by 1, to a max of 7.}
   }
-        %Hiems' trunk
+        %Hiems
          \NEW{Item}{\iBlackmail}{
   \s\MYname	{Contract}
   \s\MYnumber	{0020}
-  \s\MYtext	{A complete, magically verified contract showing that \cMerchant{\nickname} is guilty of embezzlement.}
+  \s\MYtext	{A complete, magically verified contract showing that }%\cMerchant{\nickname} is guilty of embezzlement.}
   }
 
 %Fresi's trunk
@@ -337,19 +337,25 @@
   \s\MYnumber	{0022}
   \s\MYtext	{A small, glittering emerald.}
   }
+  %Communicators
+\NEW{Item}{\iButton}{
+  \s\MYname	{Button}
+  \s\MYnumber	{0021}
+  \s\MYtext	{0}
+  }
  %Hiems' trunk 
   \NEW{ItemEnvelope}{\iEtruriaCommunicator}{
   \s\MYname	{Fancy Communication Machine}
   \s\MYnumber	{6666}
   \s\MYtext	{It has three buttons, labeled "0," "1," and "2." One button must be pressed at all times. To see which is pressed, check the paper inside this envelope; to press a different button, replace the paper with a different number from 0-2 written on it. 3-hands bulky.}
-  \s\MYcontents	{0}
+  \s\MYcontents	{\iButton{}}
   }
  %Meizon's trunk 
     \NEW{ItemEnvelope}{\iScythiaCommunicator}{
   \s\MYname	{Fancy Communication Machine}
   \s\MYnumber	{7777}
   \s\MYtext	{It has four buttons, labeled "0," "1," "2," and "3." One button must be pressed at all times. To see which is pressed, check the paper inside this envelope; to press a different button, replace the paper with a different number from 0-4 written on it. 3-hands bulky.}
-  \s\MYcontents	{0}
+  \s\MYcontents	{\iButton{}}
   }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
