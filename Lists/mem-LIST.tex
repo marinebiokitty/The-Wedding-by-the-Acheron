@@ -83,7 +83,7 @@
 %Fresi
 \NEW{MemFold}{\mFresiExplosives}{
   \s\MYname	{If you see Item 0007, open this.}
-  \s\MYtext	{This is both terrific and terrifying-- it's one of the bags of explosives stolen from your ship!}
+  \s\MYtext	{Sugar? Flour? No, this is something far more terrifying - it?s one of the bags of high explosive stolen from your ship! Even this small bag is enough to send a score of soldiers to their graves. What could it be doing here?}
 }
 %Fresi
 \NEW{MemFold}{\mFresiPoisonOne}{
@@ -111,17 +111,44 @@
   \s\MYtext	{Achillea-- that was a pathetic Scythian border town, wasn't it? You recall ordering its destruction for some reason or another, not long before Cerintha's death.}
 }
 %Leda
-\NEW{MemFold}{\mThief}{
+\NEW{MemEnvelope}{\mThief}{
   \s\MYname	{Open this when you see the Scythian fortune-teller.}
-  \s\MYtext	{You recognize this person from a portrait in a dusty storeroom of Etruria's castle . . . Oh! This diviner is the splitting image of the last queen of Etruria, dethroned by Hyperion Coronus!}
+  \s\MYtext	{Something about this striking young diviner is hauntingly familiar. The lines of \cBurglar{\their} face, the defiant glint in \cBurglar{\their} eyes, \cBurglar{\their} regal poise and \cBurglar{\their} proud voice. You?ve not seen \cBurglar{\their} like in far too long. Then you remember: your guilty mind conjures up memories of the old Etruscan queen, before King Hyperion dethroned \cBurglar{\them} and left her to die. This diviner is \cBurglar{\their} spitting image! Perhaps \cBurglar{\they} too bears royal blood . . .}
 }
 %Fresi
-\NEW{MemFold}{\mHackEtruria}{
+\NEW{MemEnvelope}{\mHackEtruria}{
   \s\MYname	{Open this if you successfully hack communication machine 6666.}
-  \s\MYtext	{"0" = a multi-pronged, all-out attack. "1" = a series of moderately hostile activities. "2" = no military activity.}
+  \s\MYtext	{The wiring here is more complex than the devices you?re used to, but with a little finagling you?re able to reverse-engineer the communicator and figure out what message each button will send. Pressing the button marked ?0? will launch an all-out attack, pressing the button marked ?1? will heighten the nation?s border defenses, and pressing the button marked ?2? will spark no additional military activity. Those tricky artificers switched around the classic codes!}
 }
 %Fresi
-\NEW{MemFold}{\mHackScythia}{
+\NEW{MemEnvelope}{\mHackScythia}{
   \s\MYname	{Open this if you successfully hack communication machine 7777.}
-  \s\MYtext	{"2" = a multi-pronged, all-out attack. "1" = a series of moderately hostile activities. "0" and "4" = no military activity.}
+  \s\MYtext	{The wiring here is more complex than the devices you?re used to, but with a little finagling you?re able to reverse-engineer the communicator and figure out what message each button will send. Pressing the button marked ?2? will launch an all-out attack, pressing the button marked ?1? will heighten the nation?s border defenses, and pressing the buttons marked ?0? and ?4? will spark no additional military activity.}
+}
+
+%Meizon
+\NEW{MemCover}{\mAmnesia}{
+  \s\MYname	{}
+  \s\MYmems	{\mAmnesiaOne{}\mAmnesiaTwo{}\mAmnesiaThree{}\mAmnesiaFour{}}
+  }
+
+\NEW{MemPage}{\mSicknessOne}{
+  \s\MYname	{Open this 30 minutes into the game, provided you are alive.}
+  \s\MYtext	{Your temples throb, and the room spins around you like a child?s top. You blink, rubbing your brows, and the sensation fades, save a faint buzzing at the edges of your consciousness. You feel just a fraction colder than you did only minutes ago, but when you touch your forehead your skin is warm and clammy. Perhaps it was something you ate.}
+
+\NEW{MemPage}{\mSicknessTwo}{
+  \s\MYname	{Open this packet 1 hour into the game, provided you are alive.}
+  \s\MYtext	{The grating whispers in your mind grow louder and harsher, and your brain smolders with sudden pain. Your skin clings to your frame like waterlogged silk, and your hands gnarl and contort into ghastly claws, flickering as you gaze at them. Those around you cannot sense your agony, and you are powerless to tell them, a claustrophobic voice in a silent body. For the next five minutes, you can understand others, but cannot produce any verbal sounds of your own. In addition, your psychic health max decreases by 1.}
+}
+
+\NEW{MemPage}{\mSicknessThree}{
+  \s\MYname	{Open this packet 2 hours into the game, provided you are alive.}
+  \s\MYtext	{Your bones are as hollow as a minstrel?s wooden flutes, and every gust of wind plays a dirge within your soul. The slightest touch feels like a thousand rats gnawing at your skin, their mouths stinking of leprous decay. You can feel the blood and pus and bile oozing through your veins, thin and lifeless. When you open your mouth to speak, your tongue is forked like a serpent?s, and only a senseless, ceaseless babble emerges. For the next fifteen minutes, you can understand those around you, but you yourself can speak only gibberish. Your psychic health max decreases by 1.}
+}
+
+\NEW{MemPage}{\mSicknessFour}{
+  \s\MYname	{Open this packet 2 hours and 45 minutes into the game, provided you are alive.}
+  \s\MYtext	{Oh gods, oh gods, there is no mercy! The crystal of your soul is cracking into shards, filling your vision with impossible light, setting you adrift on a gray sea beneath gray sails. Every breath you take wraps its hands around your throat and begins to choke you. Tendrils of black lightning crawl beneath your skin, writhing and constricting until you cannot move your limbs. You can feel your heart begin to slow, each beat full of agony. Your psychic health max decreases by 4. If your psychic health max is now below or equal to 0, you die.}
+}
+
 }
