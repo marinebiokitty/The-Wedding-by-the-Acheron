@@ -24,9 +24,18 @@ Render ph7 as a mem-envelope as well. trigger on ph>7.
 -Etruscan/Scythian Diadem Negotioations-
 This should probably just be a note on the relvant charactersheets (in a notes section) it doesn't need it's own greensheet.
 
--Scythian Communication Machine-
+-Etrurian Communication Machine-
 you can't mention the counter part machine not having any "such" buttons until you've mentioned that the machine you do have DOES have buttons.
 change "four possible orders" to "Four possible messages for your military HQ" or something. "four orders" is confusing.
 Make the buttons a list and give the list a title like "messages coded to the buttons"
 you don't have a "4" you have a "3" as your highest number. Correct this.
 keep "an" eye on it.
+
+-Scythian comm machine -
+Again, mention buttons on yours before no buttons on the other.
+"all times"
+"all out attack on _Etrusca_"
+"may laso provoke Etrutria"
+
+-Wedding Ritual-
+Are the vows during the 1 minute standing, or after?
