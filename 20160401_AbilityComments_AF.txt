@@ -1,0 +1,9 @@
+"Truthing Resistance" = specify that you do NOT show this ability to the person when you use it
+
+"Soul Attack" effect = change second sentence to "cannot reduce psychic health below zero"
+
+"Sly poisoning" = again, don't show the ability. Also, what do htey tell someone if htey get caught?
+
+"First aid" = specify what happens to the timer. does it keep running? does it pause? What if hte healer is interupted, do they have to start over?
+
+"alchoholism" = when does the hour start? is it from game start? from when you get this ability?
