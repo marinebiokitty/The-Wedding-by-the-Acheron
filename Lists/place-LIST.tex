@@ -18,21 +18,21 @@
 %%
 %%%%%
 
-\errorcontextlines=10
+%\errorcontextlines=10
 
-\DECLARESUBTYPE{Place}{Owner}
-\PRESETS{Place}{
-  \FD\MYwhere	{} %% if a Place is a single identifiable location
-  \FD\MYwhen	{} %% if a Place is time-based
-  }
-\POSTSETS{Place}{
-  \edef\mylocation{\MYwhere}
-  \protected@edef\@ownerstring{%
-    \MYname%
-    \ifx\mylocation\empty\else\ (\mylocation)\fi%
-    \ifx\MYwhen\empty\else\ (\MYwhen)\fi%
-    }
-  }
+%\DECLARESUBTYPE{Place}{Owner}
+%\PRESETS{Place}{
+ % \FD\MYwhere	{} %% if a Place is a single identifiable location
+ % \FD\MYwhen	{} %% if a Place is time-based
+ % }
+%\POSTSETS{Place}{
+  %\edef\mylocation{\MYwhere}
+  %\protected@edef\@ownerstring{%
+   % \MYname%
+ %   \ifx\mylocation\empty\else\ (\mylocation)\fi%
+ %   \ifx\MYwhen\empty\else\ (\MYwhen)\fi%
+ %   }
+ % }
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -45,9 +45,63 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%034
 \NEW{Place}{\pLuggageRoom}{
-  \s\MYname	{}
+  \s\MYname	{Luggage Room}
   \s\MYsigns	{\sScythiaKing{}\sScythiaQueen{}\sBride{}\sWard{}\sEtruriaKing{}\sGroom{}\sPoet{}\sBurglar{}\sFugitive{}\sArmsDealer{}\sMerchant{}\sMerchantLock{}\sAssassin{}\sButler{}\sArchaeologist{}\sAnarchist{}\sSigilEight{}\sRiddleEight{}\sAnswerEight{}}
+  \s\MYitems	{}
+}
+%015
+\NEW{Place}{\pPavillion}{
+  \s\MYname	{Pavillion}
+  \s\MYsigns	{\sDiademSigil{}\sDiadem{}\sPavillion{}\sAltar{}}
+  \s\MYitems	{}
+}
+%030
+\NEW{Place}{\pDiningHall}{
+  \s\MYname	{Dining Hall}
+  \s\MYsigns	{\sDiningHall{}\sSigilSix{}\sRiddleSix{}\sAnswerSix{}}
+  \s\MYitems	{}
+}
+%032
+\NEW{Place}{\pGameRoom}{
+  \s\MYname	{Gaming Hall}
+  \s\MYsigns	{\sGameRoom{}\sSigilSeven{}\sRiddleSeven{}\sAnswerSeven{}}
+  \s\MYitems	{}
+}
+%002
+\NEW{Place}{\pBeach}{
+  \s\MYname	{Seashore}
+  \s\MYsigns	{\sBeach{}\sSigilFive{}\sRiddleFive{}\sAnswerFive{}\sSigilFour{}\sRiddleFour{}\sAnswerFour{}}
+  \s\MYitems	{}
+}
+%Outside 002
+\NEW{Place}{\pWoods}{
+  \s\MYname	{Woods}
+  \s\MYsigns	{\sWoods{}\sSigilThree{}\sRiddleThree{}\sAnswerThree{}\sShrineOutside{}\sShrineInside{}}
+  \s\MYitems	{}
+}
+%013
+\NEW{Place}{\pMeetingHall}{
+  \s\MYname	{Meeting Hall}
+  \s\MYsigns	{\sMeetingHall{}\sVaseOutside{}\sVaseInside{}}
+  \s\MYitems	{}
+}
+%015
+\NEW{Place}{\pGarden}{
+  \s\MYname	{Garden}
+  \s\MYsigns	{\sGarden{}\sSigilTwo{}\sRiddleTwo{}\sAnswerTwo{}}
+  \s\MYitems	{}
+}
+%Outside 034
+\NEW{Place}{\pKitchen}{
+  \s\MYname	{Kitchen}
+  \s\MYsigns	{\sKitchenOutside{}\sKitchenInside{}\sSigilOne{}\sRiddleOne{}\sAnswerOne{}}
+  \s\MYitems	{}
+}
+%Outside 030
+\NEW{Place}{\pCloset}{
+  \s\MYname	{Closet}
+  \s\MYsigns	{\sCloset{}}
   \s\MYitems	{}
 }
