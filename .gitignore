@@ -8,3 +8,5 @@ LaTeX/Kos_path.cls
 *.fls
 *.dvi
 *latexmk
+
+LaTeX/Kos_path.cls

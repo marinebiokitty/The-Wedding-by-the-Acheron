@@ -9,7 +9,6 @@ Can we make it not a GM interaction mechanic? ie: envelopes on a wall? Make an i
 Make the risks into a list or better a table.
 Lose the bold formating on everything except the risk numbers.
 Move the "risk" section to after the "what you can do" section
-Turn the "what you can do" section into a list. Use item macros so the numbers print too for the ingrdients (Oishi: Nope, there’s a lot of possible items for some of these ingredients, some of which are not known to the casters at game-start)
 
 -Whisperer-
 test out as an ability
