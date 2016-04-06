@@ -20,11 +20,11 @@
 
 %\errorcontextlines=10
 
-%\DECLARESUBTYPE{Place}{Owner}
-%\PRESETS{Place}{
- % \FD\MYwhere	{} %% if a Place is a single identifiable location
- % \FD\MYwhen	{} %% if a Place is time-based
- % }
+\DECLARESUBTYPE{Place}{Owner}
+\PRESETS{Place}{
+  \FD\MYwhere	{} %% if a Place is a single identifiable location
+  \FD\MYwhen	{} %% if a Place is time-based
+  }
 %\POSTSETS{Place}{
   %\edef\mylocation{\MYwhere}
   %\protected@edef\@ownerstring{%
@@ -51,6 +51,7 @@
   \s\MYsigns	{\sScythiaKing{}\sScythiaQueen{}\sBride{}\sWard{}\sEtruriaKing{}\sGroom{}\sPoet{}\sBurglar{}\sFugitive{}\sArmsDealer{}\sMerchant{}\sMerchantLock{}\sAssassin{}\sButler{}\sArchaeologist{}\sAnarchist{}\sSigilEight{}\sRiddleEight{}\sAnswerEight{}}
   \s\MYitems	{}
 }
+
 %015
 \NEW{Place}{\pPavillion}{
   \s\MYname	{Pavillion}
