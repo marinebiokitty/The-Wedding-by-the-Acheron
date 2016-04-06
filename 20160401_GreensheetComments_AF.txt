@@ -7,10 +7,9 @@ Provide examples for #2. IE: A scythian merchant would know a lot about prices i
 -Soul Magic One-
 Can we make it not a GM interaction mechanic? ie: envelopes on a wall? Make an item card?
 Make the risks into a list or better a table.
-Stick to 5 minutes of gibberish for 7,8.
 Lose the bold formating on everything except the risk numbers.
 Move the "risk" section to after the "what you can do" section
-Turn the "what you can do" section into a list. Use item macros so the numbers print too for the ingrdients
+Turn the "what you can do" section into a list. Use item macros so the numbers print too for the ingrdients (Oishi: Nope, there’s a lot of possible items for some of these ingredients, some of which are not known to the casters at game-start)
 
 -Whisperer-
 test out as an ability
@@ -24,18 +23,9 @@ Render ph7 as a mem-envelope as well. trigger on ph>7.
 -Etruscan/Scythian Diadem Negotioations-
 This should probably just be a note on the relvant charactersheets (in a notes section) it doesn't need it's own greensheet.
 
--Etrurian Communication Machine-
+-Scythian Communication Machine-
 you can't mention the counter part machine not having any "such" buttons until you've mentioned that the machine you do have DOES have buttons.
 change "four possible orders" to "Four possible messages for your military HQ" or something. "four orders" is confusing.
 Make the buttons a list and give the list a title like "messages coded to the buttons"
 you don't have a "4" you have a "3" as your highest number. Correct this.
 keep "an" eye on it.
-
--Scythian comm machine -
-Again, mention buttons on yours before no buttons on the other.
-"all times"
-"all out attack on _Etrusca_"
-"may laso provoke Etrutria"
-
--Wedding Ritual-
-Are the vows during the 1 minute standing, or after?
