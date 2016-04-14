@@ -183,19 +183,19 @@
       \NEW{Item}{\iAle}{
   \s\MYname	{Bottle of Golden Ale}
   \s\MYnumber	{0002}
-  \s\MYtext	{A bottle of ale. If you consume this, destroy this card and act tipsy for the next five minutes. Also, roll a d20; if your roll is less than 11, you take 1 point of psychic damage. 1-hand bulky.}
+  \s\MYtext	{A bottle of ale. If you consume this, destroy this card, and roll a d20. If your roll is under 3, you go unconscious for one minute. 1-hand bulky.}
   }
   %12 copies in Salo's trunk
         \NEW{Item}{\iCider}{
   \s\MYname	{Bottle of Hard Cider}
   \s\MYnumber	{0003}
-  \s\MYtext	{A bottle of hard cider. f you consume this, destroy this card and act tipsy for the next five minutes. Also, roll a d20; if your roll is less than 11, you take 1 point of psychic damage. 1-hand bulky.}
+  \s\MYtext	{A bottle of hard cider. If you consume this, destroy this card, and roll a d20. If your roll is under 3, you go unconscious for one minute. 1-hand bulky.}
   }
   %2 in Paldeen's trunk
         \NEW{Item}{\iGoldBottle}{
-  \s\MYname	{Golden Bottle of Honeyed Mead}
+  \s\MYname	{Golden Bottle of Mead}
   \s\MYnumber	{0004}
-  \s\MYtext	{A solid gold bottle of excellent honeyed mead. f you consume this, destroy this card and act tipsy for the next five minutes. Also, roll a d20; if your roll is less than 11, you take 1 point of psychic damage. 1-hand bulky.}
+  \s\MYtext	{A solid gold bottle of mead, spiced with cinnamon. If you consume this, destroy this card, and roll a d20. If your roll is under 3, you go unconscious for one minute. 1-hand bulky.}
   }
   %One in Maxenes' trunk, two with Salo's trunk
     \NEW{ItemEnvelope}{\iCarton}{
@@ -215,12 +215,6 @@
   \s\MYname	{Bag of White Powder}
   \s\MYnumber	{0007}
   \s\MYtext	{A burlap bag filled with white powder. 2-hands bulky.}
-  }
-  %sketchy closet
-    \NEW{Item}{\iRag}{
-  \s\MYname	{Rag}
-  \s\MYnumber	{0008}
-  \s\MYtext	{A dirty yellow cleaning rag.}
   }
   %in Leda's trunk
       \NEW{ItemEnvelope}{\iHandkerchief}{
@@ -284,7 +278,7 @@
   \s\MYname	{Thin Brown Liquid}
   \s\MYnumber	{0017}
   \s\MYtext	{Open if you ingest this.}
-  \s\MYcontents	{You are cured of any acute poisoning effects currently affecting you. You also do not notice and are unaffected by any acute poisoning effects that start in the next twenty minutes.}
+  \s\MYcontents	{You are cured of any acute poisoning effects currently affecting you. You also do not notice and are unaffected by any acute poisoning effects that start to afflict you in the next twenty minutes.}
   }
       %lots of copies, GM potion sign
     \NEW{ItemFold}{\iChronicPoisonRemedy}{
@@ -322,9 +316,15 @@
          \NEW{Item}{\iBlackmail}{
   \s\MYname	{Contract}
   \s\MYnumber	{0020}
+  \s\MYtext	{A complete, magically verified contract showing that \cMerchant{\nickname} is guilty of embezzlement.}
+  }
+  
+%Hiems
+  \NEW{Item}{\iSecondBlackmail}{
+  \s\MYname	{Contract}
+  \s\MYnumber	{0020}
   \s\MYtext	{A complete, magically verified contract showing that }%\cMerchant{\nickname} is guilty of embezzlement.}
   }
-
 %Fresi's trunk
 \NEW{Item}{\iLargeBell}{
   \s\MYname	{Large Bell}
@@ -342,6 +342,12 @@
   \s\MYname	{Button}
   \s\MYnumber	{0021}
   \s\MYtext	{0}
+  }
+    %sketchy closet
+    \NEW{Item}{\iRag}{
+  \s\MYname	{Rag}
+  \s\MYnumber	{0022}
+  \s\MYtext	{A dirty yellow cleaning rag.}
   }
  %Hiems' trunk 
   \NEW{ItemEnvelope}{\iEtruriaCommunicator}{
