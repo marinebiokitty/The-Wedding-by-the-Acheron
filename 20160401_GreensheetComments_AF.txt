@@ -5,7 +5,6 @@ State that this is an out of game interaction. Both players should go "not here"
 Provide examples for #2. IE: A scythian merchant would know a lot about prices in scythia (3), could only make educated guesses at what would be wise investments in Etruria (2), and can't speak at all to the inner workings of the universe (1).
 
 -Soul Magic One-
-Can we make it not a GM interaction mechanic? ie: envelopes on a wall? Make an item card?
 Make the risks into a list or better a table.
 Lose the bold formating on everything except the risk numbers.
 Move the "risk" section to after the "what you can do" section
