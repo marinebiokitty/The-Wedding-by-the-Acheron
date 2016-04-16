@@ -65,7 +65,7 @@
 %% as the \MYhp field, that defaults to 5.
 \PRESETS{Char}{
   \FD\MYdesc	{} %% badge description
-
+  \newstat\MYpsyche	{Psychic Health Max}{Psychic Health Max}{5} % Psychic health max
   \newstat\MYcr	{Combat Rating}{CR}{2} %% for DarkWater-style combat
  % \newstat\MYhp	{Hitpoints}{HP}{10} % Hitpoints
 
@@ -307,6 +307,8 @@
   \s\MYabils	{\aKnockOut{}\aAssist{}\aRestrain{}\aFirstAid{}\aSoullessness{}\aBluffmasterSubtract{}} 
   \s\MYwhites	{}
   \s\MYmems {\mRecoverSoul{}\mMoeniaFortunes{}}
+    \s\MYpsyche {N/A}
+
 } 
 
 \NEW{PC}{\cGroom}{
@@ -454,6 +456,7 @@
   \s\MYabils	{\aSoulAttack{}} 
   \s\MYwhites	{}
   \s\MYmems {}
+  \s\MYpsyche {N/A}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

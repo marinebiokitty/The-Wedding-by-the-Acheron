@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 APR 2016 11:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 APR 2016 14:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -14,7 +14,7 @@ cls
 path.cls)
 (/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/LaTeX/gametex.sty
 Document Class: Kos 
-  --- The Wedding by the Acheron --- Month Day, Year ---
+  --- The Wedding by the Acheron --- April 23, 2016 ---
 \@multicount=\count79
 \@mapbox=\box26
 \@@@unique=\count80
@@ -769,6 +769,15 @@ Missing character: There is no ’ in font ptmr7t!
 \openout1 = `listchar-PRINT.aux'.
 
 
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Emerald
+Queen.tex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Emerald
+Queen.tex) [1
+
+] [2] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
 (/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Archaeo
 logist.tex)
 (/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Archaeo
@@ -816,30 +825,21 @@ Missing character: There is no ’ in font ptmr7t!
  [2] (./listchar-PRINT.aux)
 \openout1 = `listchar-PRINT.aux'.
 
-
-(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Emerald
-Queen.tex)
-(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Emerald
-Queen.tex) [1
-
-] [2] (./listchar-PRINT.aux)
-\openout1 = `listchar-PRINT.aux'.
-
  (./listchar-PRINT.aux) ) 
 Here is how much of TeX's memory you used:
- 15868 strings out of 493089
- 226938 string characters out of 6134842
- 401065 words of memory out of 5000000
- 19000 multiletter control sequences out of 15000+600000
+ 15885 strings out of 493089
+ 227078 string characters out of 6134842
+ 405448 words of memory out of 5000000
+ 19017 multiletter control sequences out of 15000+600000
  22474 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,14n,45p,17399b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,14n,45p,17399b,2005s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/ba
 se/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on listchar-PRINT.pdf (60 pages, 217152 bytes).
+Output written on listchar-PRINT.pdf (60 pages, 219792 bytes).
 PDF statistics:
  215 PDF objects out of 1000 (max. 8388607)
  147 compressed objects within 2 object streams
