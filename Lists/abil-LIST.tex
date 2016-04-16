@@ -51,7 +51,7 @@
 %% Basic DarkWater-style Martial Attack abilities
 
 
-%% Everyone has these 3
+%% Everyone alive has these 3
 \NEW{Abil}{\aAssist}{
   \s\MYname	{Assist}
   \s\MYtext	{You can assist someone else's attack.  You must be
@@ -60,56 +60,19 @@
 		saying ``\MYname'' and your CR.}
   \s\MYeffect	{I assist your attack.}
   }
-%everyone
 \NEW{Abil}{\aKnockOut}{
   \s\MYname	{Knock Out}
   \s\MYtext	{You can knock someone out as an attack. Say your CR.}
   \s\MYeffect	{I knock you out.}
   }
-
-\NEW{Abil}{\aWound}{
-  \s\MYname	{Wound}
-  \s\MYtext	{You can wound someone as an attack.  This requires an
-		{\bf edged} weapon, such as a knife.  Say ``\MYname'' and
-		your CR.}
-  \s\MYeffect	{I wound you.}
-  }
-
-
-%% the \basecombat macro can be prepended to the Char abils list
-%% (in char-LIST.tex)
-\def\basecombat{\aKnockOut{}\aWound{}\aAssist{}}
-
-%% only some people have these
-\NEW{Abil}{\aDisarm}{
-  \s\MYname	{Disarm}
-  \s\MYtext	{You can disarm one item from someone as an attack.  Say
-		``\MYname'' and your CR.  Point at the item you want to
-		disarm.  If the attack works, they must drop that item.}
-  \s\MYeffect	{I disarm that item.}
-  }
-
 \NEW{Abil}{\aRestrain}{
   \s\MYname	{Restrain}
-  \s\MYtext	{You can restrain someone as an attack.  Say ``\MYname''
-		and your CR.  You may freely drag, attack, or (if you have
-		a weapon) killing-blow them.  To do anything else, or if
-		your health state changes, incant ``release'' and let them
-		go.}
-  \s\MYeffect	{I restrain you.  You are restrained until I incant
-		``release.''}
-  }
-\NEW{Abil}{\aThrow}{
-  \s\MYname	{Throw}
-  \s\MYtext	{You can throw someone as an attack.  Say ``\MYname'' and
-		your CR.  Point in the direction you want to throw them.}
-  \s\MYeffect	{I throw you.  Go in the direction I point ten full steps
-		or until you hit a wall or similar.}
+  \s\MYtext	{You can restrain someone as an attack. Keeping them restrained requires one hand. Say your CR.}
+  \s\MYeffect	{I restrain you with one hand.}
   }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Salo, Maxenes, Meizon, Cryseon, Felix (and possibly Delia and Moenia, if they tell 12+ fortunes)
-%Dusty Diadem adds one instance of truthing
 \NEW{Abil}{\aTruthingOne}{
   \s\MYname	{Royal Truthing Magic (1x)}
   \s\MYtext	{You can use magic to determine how truthful someone's statement is. Show your target the "Truthing" greensheet for further details.}
@@ -185,7 +148,7 @@
   %Delia
   \NEW{Abil}{\aImprovedLockpicking}{
   \s\MYname	{Improved Lockpicking}
-  \s\MYtext	{When lockpicking, you can treat every lock's Difficulty as 1 point lower.}
+  \s\MYtext	{When lockpicking, you can treat every lock's Difficulty as 2 points lower.}
   \s\MYeffect	{I am excellent at picking locks.}
   }
   
@@ -212,7 +175,7 @@
 %Delia, Leda, Max
 \NEW{Abil}{\aBluffmasterReroll}{
   \s\MYname	{Chaotic Technique}
-  \s\MYtext	{You can force someone to re-roll a die. This ability can be used once per set. This ability can be used on one of your own dice.}
+  \s\MYtext	{You can force someone to re-roll a die. You must specify whether you are targeting the first or second die rolled. This ability can be used once per set. This ability can be used on one of your own dice.}
   \s\MYeffect	{I force a die to be re-rolled.}
 }
 
@@ -240,10 +203,10 @@
   \s\MYtext	{You feel strangely weak and tired, and your CR is 0 until you get treatment. This is a chronic poisoning effect.}
   \s\MYeffect	{I feel sick.}
 }
- %Cryseon, maybe Eidola
+ %Cryseon (Eidola has a mem packet)
 \NEW{Abil}{\aAlcoholism}{
   \s\MYname	{Alcoholism}
-  \s\MYtext	{If you are offered a drink, you cannot refuse it. Additionally, you must consume at least two drinks every hour. Every time you finish a full hour without consuming two drinks, take two points of psychic damage. Start the first hour when you get this ability.}
+  \s\MYtext	{If you are offered a drink, you cannot refuse it. Additionally, you must consume at least two drinks every hour. Every time you finish a full hour without consuming two drinks, take three points of psychic damage. Start the first hour when you get this ability.}
   \s\MYeffect	{I am addicted to alcohol.}
 }
  %Eidola
@@ -273,6 +236,6 @@
 %one for Prym, lots in GM place
 \NEW{Abil}{\aWhisperer}{
   \s\MYname	{Whisperer}
-  \s\MYtext	{You can see and hear characters wearing solid-colored headbands. If you ever wear a solid-colored headband yourself, you can hand over this ability to one character without a solid-colored headband. Tell them to get a Whisperer card from the K envelope.}
-  \s\MYeffect	{I can perceive more than the normal person.}
+  \s\MYtext	{You can see and hear characters wearing solid-colored headbands. If you ever find yourself wearing a solid-colored headband, you can pass this ability on one character without a solid-colored headband. Tell them to get a Whisperer card from the K envelope.}
+  \s\MYeffect	{I can perceive more than a normal person.}
 }

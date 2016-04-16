@@ -1,29 +1,7 @@
-Greensheets:
--Truthing-
-State that this is an out of game interaction. Both players should go "not here" and the player in quiestion (having truthing used on them) must answer honestly as an out of game statement.
-
-Provide examples for #2. IE: A scythian merchant would know a lot about prices in scythia (3), could only make educated guesses at what would be wise investments in Etruria (2), and can't speak at all to the inner workings of the universe (1).
-
 -Soul Magic One-
-Make the risks into a list or better a table.
 Lose the bold formating on everything except the risk numbers.
 Move the "risk" section to after the "what you can do" section
 
--Whisperer-
-test out as an ability
-
--Ghost-
-make sure to specify in rules and update GM bluesheet.
-What color headband?
-Render the psychic health 4 as a mem-envelope belonging to this page containing the ability. trigger: open if your psychic health >4
-Render ph7 as a mem-envelope as well. trigger on ph>7.
 
 -Etruscan/Scythian Diadem Negotioations-
 This should probably just be a note on the relvant charactersheets (in a notes section) it doesn't need it's own greensheet.
-
--Scythian Communication Machine-
-you can't mention the counter part machine not having any "such" buttons until you've mentioned that the machine you do have DOES have buttons.
-change "four possible orders" to "Four possible messages for your military HQ" or something. "four orders" is confusing.
-Make the buttons a list and give the list a title like "messages coded to the buttons"
-you don't have a "4" you have a "3" as your highest number. Correct this.
-keep "an" eye on it.
