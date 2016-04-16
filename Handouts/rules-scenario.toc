@@ -40,16 +40,16 @@
 \contentsline {paragraph}{Martial Attack Abilities:}{8}
 \contentsline {subsection}{\numberline {4.5}Stealth}{8}
 \contentsline {paragraph}{Waylay:}{8}
-\contentsline {paragraph}{Rope:}{9}
-\contentsline {paragraph}{Doors and Locks:}{9}
-\contentsline {section}{\numberline {5}Miscellaneous}{10}
-\contentsline {paragraph}{Headband Colors:}{10}
-\contentsline {paragraph}{Badge Numbers:}{10}
-\contentsline {section}{\numberline {6}The Neptune Ball Specific Changes}{11}
-\contentsline {subsection}{\numberline {6.1}Tape on the floor}{11}
-\contentsline {subsection}{\numberline {6.2}The Banquet}{11}
-\contentsline {subsection}{\numberline {6.3}Magical Effects}{11}
-\contentsline {subsection}{\numberline {6.4}NPCs}{11}
-\contentsline {subsection}{\numberline {6.5}Stickers}{11}
-\contentsline {subsection}{\numberline {6.6}Other}{11}
-\contentsline {section}{\numberline {7}Closing Notes}{11}
+\contentsline {paragraph}{Rope:}{8}
+\contentsline {paragraph}{Doors and Locks:}{8}
+\contentsline {section}{\numberline {5}Miscellaneous}{9}
+\contentsline {paragraph}{Headband Colors:}{9}
+\contentsline {paragraph}{Badge Numbers:}{9}
+\contentsline {section}{\numberline {6}The Neptune Ball Specific Changes}{10}
+\contentsline {subsection}{\numberline {6.1}Tape on the floor}{10}
+\contentsline {subsection}{\numberline {6.2}The Banquet}{10}
+\contentsline {subsection}{\numberline {6.3}Magical Effects}{10}
+\contentsline {subsection}{\numberline {6.4}NPCs}{10}
+\contentsline {subsection}{\numberline {6.5}Stickers}{10}
+\contentsline {subsection}{\numberline {6.6}Other}{10}
+\contentsline {section}{\numberline {7}Closing Notes}{10}

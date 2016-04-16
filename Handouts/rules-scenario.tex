@@ -692,7 +692,7 @@ Unless you know otherwise, killing blows are forbidden in this game. A player ma
 All characters have a {\bf Combat Rating} ({\bf CR}) stat.  This
 represents your basic skill in martial combat; you use the same number
 for attacking and defending.  Someone with a CR of one can't fight
-very well.  Someone with a CR of three is somewhat burly or skilled.
+very well.  {\bf Someone with a CR of three has normal skill level at combat.}
 When using this stat, you may pull your punches by using a lower
 number.
 
@@ -703,13 +703,12 @@ the ability card for any attack you make; you don't have to display
 it.  Your attack must resolve before you make another; otherwise, you
 may act freely.  If an ally directs {\bf \aAssist{}} at you after you
 attack, you may, within 2 seconds, restate your attack with the
-\aAssist{}'s CR added (``\aWound{} 3'', ``\aAssist{} 2'', ``\aWound{}
+\aAssist{}'s CR added (``\aKnockOut{} 3'', ``\aAssist{} 2'', ``\aKnockOut{}
 5'').  \aAssist{} does not change your CR for defense.  You may ignore
 an \aAssist{}.
 
-{\bf If you wound someone or assisting in a wound attack,} you must put on a red headband for 10 minutes. This represents the fact that it is obvious that you are bloody.
 
-Wound attacks require a \iKnife{}. Restrain attacks require rope (which is freely available). Knock Out attacks do not require any item.
+Knock Out attacks do not require any item. Rope is {\bf not} freely available.
 
 %% defense
 When martial-attacked, resolve by comparing the attack against your
@@ -725,23 +724,23 @@ unclear.  If you are attacked with ``{\bf waylay}'' instead of a CR
 (``\aKnockOut{} waylay''), the attack just works.
 
 \paragraph{Martial Attack Abilities:} Here is a list of attack
-abilities.  You should assume that every character has \aKnockOut{}, \aWound{},  \aAssist{}, and \aRestrain{}.  Other attack
+abilities.  You should assume that every character has \aKnockOut{},\aAssist{}, and \aRestrain{}.  Other attack
 abilities may exist.\nopagebreak
 
-\begingroup
-  %% complicated typesetting
-  \MAP{Abil}{%
-    \setbox0\hbox{\phantom{w}{\em Effect}: \MYeffect}%
-    \par{\bf\MYname}: \MYtext\hfill\null\hskip\wd0\null%
-    \hskip-\wd0 plus1fill\box0%
-    \nopagebreak\par%
-    }
-  \aKnockOut{}
-  \aWound{}
-  \aAssist{}
-  \aDisarm{}
-  \aRestrain{}
-\endgroup
+%\begingroup
+%  %% complicated typesetting
+%  \MAP{Abil}{%
+%    \setbox0\hbox{\phantom{w}{\em Effect}: \MYeffect}%
+%    \par{\bf\MYname}: \MYtext\hfill\null\hskip\wd0\null%
+%    \hskip-\wd0 plus1fill\box0%
+%    \nopagebreak\par%
+%    }
+%  \aKnockOut{}
+%  \aWound{}
+%  \aAssist{}
+%  \aDisarm{}
+%  \aRestrain{}
+%\endgroup
 
 \subsection{Stealth}
 

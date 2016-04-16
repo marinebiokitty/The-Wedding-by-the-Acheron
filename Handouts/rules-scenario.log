@@ -1,7 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  2 DEC 2014 21:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.23)  16 APR 2016 11:33
 entering extended mode
-**C:/Users/Acata/Desktop/Larps/the-neptune-ball/Handouts/rules-scenario.tex
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Handouts/rules-scenario.tex
+**C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Handouts/rules-scenar
+io.tex
+
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Handouts/rules-scenari
+o.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,11 +16,11 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\Acata\Desktop\Larps\the-neptune-ball\LaTeX\NeptuneBall.cls
-(C:\Users\Acata\Desktop\Larps\the-neptune-ball\LaTeX\NeptuneBall_path.cls)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/LaTeX/gametex.sty
-Document Class: NeptuneBall 
-  --- The Neptune Ball --- NA ---
+(C:\Users\Acata\Desktop\Larps\The-Wedding-by-the-Acheron\LaTeX\Kos.cls
+(C:\Users\Acata\Desktop\Larps\The-Wedding-by-the-Acheron\LaTeX\Kos_path.cls)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/LaTeX/gametex.sty
+Document Class: Kos 
+  --- The Wedding by the Acheron --- April 23, 2016 ---
 \@multicount=\count79
 \@mapbox=\box26
 \@@@unique=\count80
@@ -379,31 +382,32 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/LaTeX/extraction.sty
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/LaTeX/extraction.sty
 \!toks=\toks30
 )
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/LaTeX/parsename.sty
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/LaTeX/parsename.sty
 \*count=\count126
 )
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/LaTeX/datatypes.sty
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/LaTeX/datatypes.sty
 \:count=\count127
 \:toks=\toks31
 )
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/blue-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/green-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/abil-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/combat-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/mem-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/item-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/white-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/notebook-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/money-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/sign-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/subowner-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/gm-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/char-LIST.tex)
-(C:/Users/Acata/Desktop/Larps/the-neptune-ball/Lists/place-LIST.tex)
-No file "C:/Users/Acata/Desktop/Larps/the-neptune-ball"/Lists/run1-LIST.tex.
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/blue-LIST.tex)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/green-LIST.tex)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/abil-LIST.tex)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/combat-LIST.tex)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/mem-LIST.tex)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/item-LIST.tex)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/white-LIST.tex)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/notebook-LIST.te
+x)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/money-LIST.tex)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/sign-LIST.tex)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/subowner-LIST.te
+x) (C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/gm-LIST.tex)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/char-LIST.tex)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/place-LIST.tex)
+(C:/Users/Acata/Desktop/Larps/The-Wedding-by-the-Acheron/Lists/run1-LIST.tex)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
@@ -418,7 +422,8 @@ No file "C:/Users/Acata/Desktop/Larps/the-neptune-ball"/Lists/run1-LIST.tex.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\Users\Acata\Desktop\Larps\the-neptune-ball\Handouts\rules-scenario.aux)
+(C:\Users\Acata\Desktop\Larps\The-Wedding-by-the-Acheron\Handouts\rules-scenari
+o.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
@@ -428,8 +433,7 @@ LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 78.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 78
 .
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 78.
@@ -509,15 +513,10 @@ Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
 
-(C:\Users\Acata\Desktop\Larps\the-neptune-ball\Handouts\rules-scenario.toc
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-)
+(C:\Users\Acata\Desktop\Larps\The-Wedding-by-the-Acheron\Handouts\rules-scenari
+o.toc)
 \tf@toc=\write3
-
-[2
+ [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
@@ -540,28 +539,28 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 
 ] [8
 
-] [9] [10
+] [9
 
-] [11
+] [10
 
 ]
-(C:\Users\Acata\Desktop\Larps\the-neptune-ball\Handouts\rules-scenario.aux) ) 
+(C:\Users\Acata\Desktop\Larps\The-Wedding-by-the-Acheron\Handouts\rules-scenari
+o.aux) ) 
 Here is how much of TeX's memory you used:
- 11476 strings out of 493921
- 125932 string characters out of 3144876
- 306747 words of memory out of 3000000
- 14609 multiletter control sequences out of 15000+200000
- 31541 words of font info for 74 fonts, out of 3000000 for 9000
+ 10005 strings out of 493921
+ 115475 string characters out of 3144876
+ 264203 words of memory out of 3000000
+ 13139 multiletter control sequences out of 15000+200000
+ 25249 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,12n,53p,926b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C
-:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on rules-scenario.pdf (13 pages, 83143 bytes).
+ 44i,12n,53p,1261b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on rules-scenario.pdf (12 pages, 80965 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
