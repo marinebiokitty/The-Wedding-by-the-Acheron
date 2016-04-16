@@ -231,3 +231,17 @@
   \endgroup}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\DECLARESUBTYPE{Coins}{Money}
+\PRESETS{Coins}{
+  \s\MYcashsymbol	{\$}
+  \s\MYsinglestring	{Coin}
+  \s\MYpluralstring	{Coins}
+  \s\MYbillstring	{Gold Coin}
+  \s\MYexchangerate	{1}
+  }
+
+\newbill{Coins}{\FiveCoin}{5}{Five}
+\newbill{Coins}{\TenCoin}{10}{Ten}
+\newbill{Coins}{\FiftyCoin}{50}{Fifty}
+
