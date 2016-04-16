@@ -1,0 +1,35 @@
+\documentclass[green]{Kos}
+\begin{document}
+\name{\gBluffmaster{}}
+
+Bluffmaster is a game of skill, represented out-of-game as a game of chance. It involves gambling, and many great fortunes have been lost and won at a Bluffmaster table.
+
+To play, you must sit down with a few other players around a triangular table designed specifically for Bluffmaster. Bluffmaster requires at least three and no more than five players. Bluffmaster is played in “Sets” of three rounds each.
+
+At the beginning of each round, every player must add 10 gold pieces to the central pool of winnings, as “ante.” Then each player rolls a 20-sided die to determine who will bet first for the round; the highest roll starts. No abilities may be used to manipulate this initial roll, and all players can see the result of the roll. Resolve any ties by re-rolling.
+
+\emph{Players in a Bluffmaster game act in turn, in clockwise rotation (acting out of turn can negatively affect other players). When it is a player's turn to act, the first verbal declaration or action she takes binds her to her choice of action; this rule prevents a player from changing her action after seeing how other players react to her initial, verbal action.}
+
+Then the round officially begins. Each player rolls a 20-sided die, keeping the result hidden until the end of the round. 
+
+After this roll, players bet on their chances of winning the round based on their first roll Until the first bet is made, each player in turn may "check," which means they do not place a bet, or "open," which means they make the first bet. After the first bet, each player may "fold," which means they drop out of the round and lose any bets they have already made; "call," which means they match the highest bet so far made; or "raise," which means they match the highest bet already made and add an additional bet of their own. All subsequent bets must match this new total. All bets go into the pot, and will be claimed by whoever wins the round. Betting ends once each player has either “folded” and left the round, or “called” and matched the current bet. If only one player remains, and the rest have “folded,” that player wins the round automatically.
+
+\emph{A sample round of betting might go as follows. Abernathy, Bri, and Columbia are betting after their first roll. Abernathy rolled a 16, Bri rolled a 7, and Columbia rolled a 17. Abernathy bets first. Since a 16 is relatively high, Abernathy starts out by betting 20 gold pieces. Even though Bri’s score is lower, she “calls,” betting 20 gold of her own. Columbia is confident in their score, so they “raise,” matching the earlier bet of 20 gold and adding 10 additional gold (making the total bet 30 gold pieces). Abernathy “calls” again, adding 10 more gold to stay in the set. Bri doesn’t think she can keep up with her low roll, and “folds,” leaving the round.}
+
+After the first round of betting, each player must roll a second 20-sided die, keeping the result hidden. Victory in the round will depend on the sum of each player’s two dice.
+
+After this second roll, the players bet again based on the strength of their current dice. It follows the same rules as the initial bets.
+
+After all players have finished betting, each player (who has not “folded”) has the opportunity to use a single ability to affect either their roll or the roll of another player. There are three abilities that players can use in Bluffmaster, each representing a different style of play, and resolve in the following order: \emph{reroll}, which allows you to re-roll a single die belonging to them or to another player (note that this does not allow you to look at a die you would not normally be able to see). After reroll comes \emph{subtract}, which allows you to subtract 3 from any player’s total. The last ability to resolve is \emph{add}, which allows you to add 3 from any player’s total roll. You cannot use a given Bluffmaster ability unless you have its corresponding ability card. If you plan to use an ability, you must take out the ability card and choose a target before abilities are declared. 
+
+You may only use an ability once per Set unless you know otherwise. As players get used to the idiosyncrasies of the specific Bluffmaster tables at this resort by playing in more Sets, their abilities may grow more powerful. 
+
+At the end of the round, after all players have placed their bets and all abilities have been used, the player with the highest combined score (modified by any abilities) wins the round and takes the money in the pot for themselves. Ties are resolved by an open roll of a 20-sided die; no abilities can be used to modify this roll. This process repeats for two more rounds with the same players. After that, the Set is finished, and players may depart or join in as they wish.
+
+\emph{Players may decide to leave the table early if all other players agree to excuse them. This is an irregular occurrence: if and when it happens, the players must decide how they wish to split whatever money is currently in the pot.}
+
+\begin{itemz}[Notes]
+\item Credit for these rules goes to Wikipedia's "Betting in poker" page.
+\end{itemz}
+
+\end{document}
