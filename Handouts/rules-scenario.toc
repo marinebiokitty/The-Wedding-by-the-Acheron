@@ -24,13 +24,13 @@
 \contentsline {paragraph}{Envelopes:}{5}
 \contentsline {paragraph}{Signs:}{5}
 \contentsline {paragraph}{Bulkiness:}{5}
-\contentsline {paragraph}{Valuable:}{5}
 \contentsline {paragraph}{Props:}{5}
 \contentsline {paragraph}{Character Bodies:}{5}
 \contentsline {paragraph}{Unstashable Items:}{5}
 \contentsline {subsection}{\numberline {3.1}Searching, Stashing, and Stealing}{6}
 \contentsline {paragraph}{Places:}{6}
 \contentsline {paragraph}{People:}{6}
+\contentsline {paragraph}{Stealing:}{6}
 \contentsline {paragraph}{Bags:}{6}
 \contentsline {section}{\numberline {4}Violence, Damage, and Death}{7}
 \contentsline {subsection}{\numberline {4.1}Health States}{7}
@@ -45,11 +45,12 @@
 \contentsline {section}{\numberline {5}Miscellaneous}{9}
 \contentsline {paragraph}{Headband Colors:}{9}
 \contentsline {paragraph}{Badge Numbers:}{9}
-\contentsline {section}{\numberline {6}The Neptune Ball Specific Changes}{10}
-\contentsline {subsection}{\numberline {6.1}Tape on the floor}{10}
-\contentsline {subsection}{\numberline {6.2}The Banquet}{10}
-\contentsline {subsection}{\numberline {6.3}Magical Effects}{10}
-\contentsline {subsection}{\numberline {6.4}NPCs}{10}
-\contentsline {subsection}{\numberline {6.5}Stickers}{10}
-\contentsline {subsection}{\numberline {6.6}Other}{10}
-\contentsline {section}{\numberline {7}Closing Notes}{10}
+\contentsline {section}{\numberline {6}The Wedding by the Acheron: Specific Changes}{10}
+\contentsline {subsection}{\numberline {6.1}Wedding Timeline}{10}
+\contentsline {subsection}{\numberline {6.2}Psychic Health}{10}
+\contentsline {subsection}{\numberline {6.3}Sick of Soul}{10}
+\contentsline {subsection}{\numberline {6.4}Food Consumption}{10}
+\contentsline {subsection}{\numberline {6.5}Fortunetelling}{10}
+\contentsline {subsection}{\numberline {6.6}Truth Magic}{10}
+\contentsline {subsection}{\numberline {6.7}Other}{10}
+\contentsline {section}{\numberline {7}Closing Notes}{11}
