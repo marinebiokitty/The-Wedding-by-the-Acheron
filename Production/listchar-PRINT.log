@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 APR 2016 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 APR 2016 10:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -829,17 +829,17 @@ Queen.tex) [1
 Here is how much of TeX's memory you used:
  15868 strings out of 493089
  226938 string characters out of 6134842
- 401126 words of memory out of 5000000
+ 401065 words of memory out of 5000000
  19000 multiletter control sequences out of 15000+600000
  22474 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,14n,45p,17408b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,14n,45p,17399b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/ba
 se/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on listchar-PRINT.pdf (60 pages, 217233 bytes).
+Output written on listchar-PRINT.pdf (60 pages, 217252 bytes).
 PDF statistics:
  215 PDF objects out of 1000 (max. 8388607)
  147 compressed objects within 2 object streams
