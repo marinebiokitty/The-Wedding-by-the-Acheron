@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 APR 2016 22:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 MAY 2017 17:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -576,12 +576,12 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Burglar
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Kingtwo
 .tex) (./listchar-PRINT.aux)
 \openout1 = `listchar-PRINT.aux'.
 
 
-(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Burglar
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Kingtwo
 .tex)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -639,6 +639,41 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 
+] [2] [3]
+Missing character: There is no ’ in font ptmr7t!
+ [4] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Bride.t
+ex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Bride.t
+ex) [1
+
+] [2]
+Missing character: There is no ’ in font ptmr7t!
+ [3] [4] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Queentw
+o.tex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Queentw
+o.tex) [1
+
+] [2]
+Missing character: There is no ’ in font ptmr7t!
+ [3] [4
+
+] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Burglar
+.tex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Burglar
+.tex) [1
+
 ]
 Missing character: There is no ’ in font ptmr7t!
  [2] [3] [4
@@ -647,24 +682,165 @@ Missing character: There is no ’ in font ptmr7t!
 \openout1 = `listchar-PRINT.aux'.
 
 
-(./listchar-PRINT.aux) ) 
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Ward.te
+x)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Ward.te
+x) [1
+
+] [2]
+Missing character: There is no ’ in font ptmr7t!
+ [3] [4] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Groom.t
+ex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Groom.t
+ex) [1
+
+] [2]
+Missing character: There is no ’ in font ptmr7t!
+ [3] [4
+
+] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Kingone
+.tex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Kingone
+.tex) [1
+
+] [2]
+Missing character: There is no ’ in font ptmr7t!
+ [3] [4] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Poet.te
+x)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Poet.te
+x) [1
+
+] [2]
+Missing character: There is no ’ in font ptmr7t!
+ [3] [4] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Assassi
+n.tex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Assassi
+n.tex) [1
+
+] [2]
+Missing character: There is no ’ in font ptmr7t!
+ [3] [4
+
+] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Armsdea
+ler.tex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Armsdea
+ler.tex) [1
+
+] [2]
+Missing character: There is no ’ in font ptmr7t!
+ [3] [4
+
+] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Butler.
+tex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Butler.
+tex) [1
+
+]
+Missing character: There is no ’ in font ptmr7t!
+ [2] [3] [4
+
+] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Emerald
+Queen.tex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Emerald
+Queen.tex) [1
+
+] [2] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Archaeo
+logist.tex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Archaeo
+logist.tex) [1
+
+] [2]
+Missing character: There is no ’ in font ptmr7t!
+ [3] [4
+
+] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Anarchi
+st.tex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Anarchi
+st.tex) [1
+
+] [2] [3]
+Missing character: There is no ’ in font ptmr7t!
+ [4] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Merchan
+t.tex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Merchan
+t.tex) [1
+
+] [2]
+Missing character: There is no ’ in font ptmr7t!
+ [3] [4
+
+] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Fugitiv
+e.tex)
+(/Users/maitreebanerjee/documents/The-Wedding-by-the-Acheron/Charsheets/Fugitiv
+e.tex) [1
+
+]
+Missing character: There is no ’ in font ptmr7t!
+ [2] (./listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+ (./listchar-PRINT.aux) ) 
 Here is how much of TeX's memory you used:
- 15343 strings out of 493089
- 216716 string characters out of 6134842
- 374251 words of memory out of 5000000
- 18581 multiletter control sequences out of 15000+600000
- 21338 words of font info for 52 fonts, out of 8000000 for 9000
+ 16025 strings out of 493089
+ 228204 string characters out of 6134842
+ 434430 words of memory out of 5000000
+ 19157 multiletter control sequences out of 15000+600000
+ 22474 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,13n,45p,9706b,1998s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/bas
-e/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on listchar-PRINT.pdf (4 pages, 57054 bytes).
+ 47i,14n,45p,17613b,2007s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/ba
+se/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on listchar-PRINT.pdf (60 pages, 221848 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 215 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -31,7 +31,7 @@
 %% can also be used for "s-packets" taped to walls (see
 %% Extras/README-s-packets).
 %%
-%% LabelCover produces a label similar to the cover to a research
+%% LabelCover ces a label similar to the cover to a research
 %% notebook.  LabelPage, likewise, produces a page.
 %%
 %% EOG is for full-sized end-of-game signs.
@@ -138,6 +138,311 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %GM
+%%Some wall hangings should be distributed throughout gamespace with no compartment signs underneath.
+\NEW{Sign}{\sWallPanelEmpty}{
+	\s\MYname	{Wood Paneling}
+	  \s\MYloc	{}
+	 \s\MYsigns	{\sNoCompartment{}}
+	 \s\MYtext	{A beautifully carved mahogany panel. If you inspect this for twenty seconds, you can discover any hidden compartments. 
+	 
+	 To do so, place your hand on this sign for twenty seconds, and then look under this page.}
+}
+\NEW{Sign}{\sNoCompartment}{
+	\s\MYname	{A Fruitless Search}
+	 \s\MYloc	{}
+	 \s\MYtext	{There are no compartments hidden in this panel.}
+}
+%%Some wall hangings should be distributed throughout gamespace with sigil signs underneath.
+\NEW{Sign}{\sWallPanelSigilOne}{
+	\s\MYname	{Wood Paneling}
+	  \s\MYloc	{}
+	 \s\MYsigns	{\sSigilOne{}}
+	 \s\MYtext	{A beautifully carved mahogany panel. If you inspect this for twenty seconds, you can discover any hidden compartments. 
+	 
+	 To do so, place your hand on this sign for twenty seconds, and then look under this page.}
+}
+
+\NEW{Sign}{\sSigilOne}{
+  \s\MYname	{Golden Sigil}
+  \s\MYloc	{Outside -034}
+  	 \s\MYsigns	{\sRiddleOne{}}
+
+  \s\MYtext	{You find a small hinged door, carved smoothly into the wall with no handle, covered by a golden sigil. If you touch this sigil for 1 minute, flip to the next page.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sRiddleOne}{
+  \s\MYname	{Riddle}
+  \s\MYloc	{Outside -034}
+    	 \s\MYsigns	{\sAnswerOne{}}
+
+  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
+
+\emph{An iron horse with a flaxen tail.\\
+The faster the horse runs,\\
+the shorter his tail becomes.\\
+What is it?\\}
+
+You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sAnswerOne}{
+  \s\MYname	{Answer}
+  \s\MYloc	{Outside -034}
+  \s\MYtext	{A needle and thread.}
+  \s\MYitems {\iEmerald{}}
+}
+\NEW{Sign}{\sWallPanelSigilTwo}{
+	\s\MYname	{Wood Paneling}
+	  \s\MYloc	{}
+	 \s\MYsigns	{\sSigilTwo{}}
+	 \s\MYtext	{A beautifully carved mahogany panel. If you inspect this for twenty seconds, you can discover any hidden compartments. 
+	 
+	 To do so, place your hand on this sign for twenty seconds, and then look under this page.}
+}
+\NEW{Sign}{\sSigilTwo}{
+  \s\MYname	{Golden Sigil}
+  \s\MYloc	{Alcove by -015}
+   \s\MYsigns	{\sRiddleTwo{}}
+  \s\MYtext	{You find a small hinged door, carved smoothly into the wall with no handle, covered by a golden sigil. If you touch this sigil for 1 minute, flip to the next page.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sRiddleTwo}{
+  \s\MYname	{Riddle}
+  \s\MYloc	{Alcove by -015}
+   \s\MYsigns	{\sAnswerTwo{}}
+  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
+
+\emph{Who makes it, has no need for it.\\
+Who buys it, has no use of it.\\
+Who uses it can neither see nor feel it.\\
+What is it? A . . .\\}
+
+You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sAnswerTwo}{
+  \s\MYname	{Answer}
+  \s\MYloc	{Alcove by -015}
+  \s\MYtext	{Casket/Coffin.}
+  \s\MYitems {\iEmerald{}}
+}
+\NEW{Sign}{\sWallPanelSigilThree}{
+	\s\MYname	{Wood Paneling}
+	  \s\MYloc	{}
+	 \s\MYsigns	{\sSigilThree{}}
+	 \s\MYtext	{A beautifully carved mahogany panel. If you inspect this for twenty seconds, you can discover any hidden compartments. 
+	 
+	 To do so, place your hand on this sign for twenty seconds, and then look under this page.}
+}
+\NEW{Sign}{\sSigilThree}{
+  \s\MYname	{Golden Sigil}
+  \s\MYloc	{Outside -002}
+   \s\MYsigns	{\sRiddleThree{}}
+  \s\MYtext	{You find a small hinged door, carved smoothly into the wall with no handle, covered by a golden sigil. If you touch this sigil for 1 minute, flip to the next page.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sRiddleThree}{
+  \s\MYname	{Riddle}
+  \s\MYloc	{Outside -002}
+   \s\MYsigns	{\sAnswerThree{}}
+  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
+
+\emph{Humans have long known me,\\
+Yet none have ever seen me,\\
+The loudest lash out at me,\\
+Like a child I talk back.\\}
+
+You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sAnswerThree}{
+  \s\MYname	{Answer}
+  \s\MYloc	{Outside -002}
+  \s\MYtext	{Echo.}
+  \s\MYitems {\iEmerald{}}
+}
+
+\NEW{Sign}{\sWallPanelSigilFour}{
+	\s\MYname	{Wood Paneling}
+	  \s\MYloc	{}
+	 \s\MYsigns	{\sSigilFour{}}
+	 \s\MYtext	{A beautifully carved mahogany panel. If you inspect this for twenty seconds, you can discover any hidden compartments. 
+	 
+	 To do so, place your hand on this sign for twenty seconds, and then look under this page.}
+}
+\NEW{Sign}{\sSigilFour}{
+  \s\MYname	{Golden Sigil}
+  \s\MYloc	{-002}
+   \s\MYsigns	{\sRiddleFour{}}
+  \s\MYtext	{You find a small hinged door, carved smoothly into the wall with no handle, covered by a golden sigil. If you touch this sigil for 1 minute, flip to the next page.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sRiddleFour}{
+  \s\MYname	{Riddle}
+  \s\MYloc	{-002}
+   \s\MYsigns	{\sAnswerFour{}}
+  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
+
+\emph{My makers their old powers lend\\
+To veins where their blood still does wend,\\
+But I may break as well as mend.\\
+I'm hidden at this journey's end.\\}
+
+You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sAnswerFour}{
+  \s\MYname	{Answer}
+  \s\MYloc	{-002}
+  \s\MYtext	{Diadem.}
+  \s\MYitems {\iEmerald{}}
+}
+
+\NEW{Sign}{\sWallPanelSigilFive}{
+	\s\MYname	{Wood Paneling}
+	  \s\MYloc	{}
+	 \s\MYsigns	{\sSigilFive{}}
+	 \s\MYtext	{A beautifully carved mahogany panel. If you inspect this for twenty seconds, you can discover any hidden compartments. 
+	 
+	 To do so, place your hand on this sign for twenty seconds, and then look under this page.}
+}
+\NEW{Sign}{\sSigilFive}{
+  \s\MYname	{Golden Sigil}
+  \s\MYloc	{-002}
+   \s\MYsigns	{\sRiddleFive{}}
+  \s\MYtext	{You find a small hinged door, carved smoothly into the wall with no handle, covered by a golden sigil. If you touch this sigil for 1 minute, flip to the next page.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sRiddleFive}{
+  \s\MYname	{Riddle}
+  \s\MYloc	{-002}
+   \s\MYsigns	{\sAnswerFive{}}
+  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
+
+\emph{I am the beginning of the end,\\
+and the end of time and space.\\
+I am essential to creation,\\
+and I surround every place.\\
+What am I?\\}
+
+You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sAnswerFive}{
+  \s\MYname	{Answer}
+  \s\MYloc	{-002}
+  \s\MYtext	{E.}
+  \s\MYitems {\iEmerald{}}
+}
+\NEW{Sign}{\sWallPanelSigilSix}{
+	\s\MYname	{Wood Paneling}
+	  \s\MYloc	{}
+	 \s\MYsigns	{\sSigilSix{}}
+	 \s\MYtext	{A beautifully carved mahogany panel. If you inspect this for twenty seconds, you can discover any hidden compartments. 
+	 
+	 To do so, place your hand on this sign for twenty seconds, and then look under this page.}
+}
+\NEW{Sign}{\sSigilSix}{
+  \s\MYname	{Golden Sigil}
+  \s\MYloc	{-030}
+   \s\MYsigns	{\sRiddleSix{}}
+  \s\MYtext	{You find a small hinged door, carved smoothly into the wall with no handle, covered by a golden sigil. If you touch this sigil for 1 minute, flip to the next page.}
+  \s\MYitems {}
+}
+
+
+\NEW{Sign}{\sRiddleSix}{
+  \s\MYname	{Riddle}
+  \s\MYloc	{-030}
+   \s\MYsigns	{\sAnswerSix{}}
+  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
+
+\emph{I sound from strings\\
+And sound like cords.\\
+What am I?\\}
+
+
+You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sAnswerSix}{
+  \s\MYname	{Answer}
+  \s\MYloc	{-030}
+  \s\MYtext	{Chords.}
+  \s\MYitems {\iEmerald{}}
+}
+\NEW{Sign}{\sWallPanelSigilSeven}{
+	\s\MYname	{Wood Paneling}
+	  \s\MYloc	{}
+	 \s\MYsigns	{\sSigilSeven{}}
+	 \s\MYtext	{A beautifully carved mahogany panel. If you inspect this for twenty seconds, you can discover any hidden compartments. 
+	 
+	 To do so, place your hand on this sign for twenty seconds, and then look under this page.}
+}
+\NEW{Sign}{\sSigilSeven}{
+  \s\MYname	{Golden Sigil}
+  \s\MYloc	{-030}
+   \s\MYsigns	{\sRiddleSeven{}}
+  \s\MYtext	{You find a small hinged door, carved smoothly into the wall with no handle, covered by a golden sigil. If you touch this sigil for 1 minute, flip to the next page.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sRiddleSeven}{
+  \s\MYname	{Riddle}
+  \s\MYloc	{-030}
+   \s\MYsigns	{\sAnswerSeven{}}
+  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
+
+\emph{Tiny, cold, metal, round,\\
+Disproportionately loud,\\
+I fall lighter than a knife\\
+And weigh greater than a life.\\
+What am I?\\}
+
+You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sAnswerSeven}{
+  \s\MYname	{Answer}
+  \s\MYloc	{-030}
+  \s\MYtext	{Coins.}
+  \s\MYitems {\iEmerald{}}
+}
+\NEW{Sign}{\sWallPanelSigilEight}{
+	\s\MYname	{Wood Paneling}
+	  \s\MYloc	{}
+	 \s\MYsigns	{\sSigilEight{}}
+	 \s\MYtext	{A beautifully carved mahogany panel. If you inspect this for twenty seconds, you can discover any hidden compartments. 
+	 
+	 To do so, place your hand on this sign for twenty seconds, and then look under this page.}
+}
+
+\NEW{Sign}{\sSigilEight}{
+  \s\MYname	{Golden Sigil}
+  \s\MYloc	{-030}
+  \s\MYtext	{You find a small hinged door, carved smoothly into the wall with no handle, covered by a golden sigil. If you touch this sigil for 1 minute, flip to the next page.}
+  \s\MYitems {}
+   \s\MYsigns	{\sRiddleEight{}}
+}
+\NEW{Sign}{\sRiddleEight}{
+  \s\MYname	{Riddle}
+  \s\MYloc	{-030}
+   \s\MYsigns	{\sAnswerEight{}}
+  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
+
+\emph{Clearly good, clearly right,\\
+Clearly evil, dark as night.\\
+Clearly owed, clearly fair,\\
+Clearly just and clearly there.\\
+What am I?\\}
+You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
+  \s\MYitems {}
+}
+\NEW{Sign}{\sAnswerEight}{
+  \s\MYname	{Answer}
+  \s\MYloc	{-030}
+  \s\MYtext	{Nothing.}
+  \s\MYitems {\iEmerald{}}
+}
 \NEW{SignMedium}{\sA}{
   \s\MYname	{A}
   \s\MYloc	{}
@@ -372,6 +677,8 @@ Once you have completed one of the above requirements, put your hand on this sig
   \s\MYloc	{- 034}
   \s\MYtext	{This is \cMerchant{}'s private trunk. The lock has an unnatural aura. Unstashable items can be stored here.
   
+  {\bf Note: Do not flip directly to the last page from this one. You must go through the second page.}
+  
   There are three ways to gain entrance to this trunk:
 
 {\bf 1. } Be the owner of the trunk.
@@ -380,7 +687,8 @@ Once you have completed one of the above requirements, put your hand on this sig
 
 {\bf 3. } Pick the lock. This space has a lock difficulty of {\bf 20}. 
 
-Once you have completed one of the above requirements, put your hand on this sign for {\bf 2 minutes}. (If the room is yours, you may bypass the wait time.) Afterwards, you may turn to the next page.}
+Once you have completed one of the above requirements, put your hand on this sign for {\bf 2 minutes}. (If the room is yours, you may bypass the wait time and flip to the last page.) Afterwards, you may turn to the next page. 
+}
   \s\MYitems {}
     \s\MYsigns	{\sMerchantLock{}}
 
@@ -389,7 +697,7 @@ Once you have completed one of the above requirements, put your hand on this sig
 \NEW{Sign}{\sMerchantLock}{
   \s\MYname	{A Lock}
   \s\MYloc	{- 034}
-  \s\MYtext	{There is a bag of magical sleeping powder attached to the lock! If you are the owner of the trunk, you can automatically access the items inside. If not, roll a d20. If you roll a 20, you successfully open the lock and can access the items in two minutes' time. Otherwise, the lock does not open, and everyone within 2 ZOC is knocked unconscious for five minutes. This is an acute poisoning effect.}
+  \s\MYtext	{There is a bag of magical sleeping powder attached to the lock! If you are the owner of the trunk, you can automatically access the items inside. If not, roll a d20. If you roll a 20, you successfully open the lock and can access the items in two minutes' time. Otherwise, the lock does not open, and everyone within 2 ZOC is knocked unconscious by the powder for five minutes. You can choose to automatically fail this dice roll. This is an acute poisoning effect.}
 
   \s\MYitems {\iFakeDiadem{}\iGoldBottle{}\iGoldBottle{}}
 }
@@ -463,32 +771,6 @@ Once you have completed one of the above requirements, put your hand on this sig
 }
 
 
-\NEW{Sign}{\sSigilEight}{
-  \s\MYname	{Golden Sigil}
-  \s\MYloc	{-030}
-  \s\MYtext	{You see a curling, golden sigil and, under it, a small hinged door, carved smoothly into the wall, with no handle. If you touch this sigil for 1 minute, flip to the next page.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sRiddleEight}{
-  \s\MYname	{Riddle}
-  \s\MYloc	{-030}
-  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
-
-\emph{Clearly good, clearly right,\\
-Clearly evil, dark as night.\\
-Clearly owed, clearly fair,\\
-Clearly just and clearly there.\\
-What am I?\\}
-You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sAnswerEight}{
-  \s\MYname	{Answer}
-  \s\MYloc	{-030}
-  \s\MYtext	{Nothing.}
-  \s\MYitems {\iEmerald{}}
-}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %-015
 
@@ -501,7 +783,7 @@ You have one chance at answering this riddle-- when you think you have the answe
 \NEW{Sign}{\sDiadem}{
   \s\MYname	{Door}
   \s\MYloc	{-030}
-  \s\MYtext	{You know on instinct how this door can be opened-- you must have eight emeralds, recovered from behind similar sigils, on your person at once. If you have eight emeralds, the door opens to you, and you can access the contents of the envelope. You are the official "finder" of the contents, so they are legally in your possession and can only be transferred by a contract with one or more countries. You cannot put anything inside, and you cannot allow others to access the door in your stead.}
+  \s\MYtext	{If there are eight emeralds embedded here, the door opens to you, and you can access the contents of the envelope. You are the official "finder" of the contents, so they are legally in your possession and can only be transferred by a contract with one or more countries. You cannot put anything inside, and you cannot allow others to access the door in your stead.}
   \s\MYitems {\iDiadem{}}
 }
 
@@ -536,31 +818,7 @@ Once you have completed one of the above requirements, put your hand on this sig
   
   \s\MYitems {}
 }
-\NEW{Sign}{\sSigilSix}{
-  \s\MYname	{Golden Sigil}
-  \s\MYloc	{-030}
-  \s\MYtext	{You see a curling, golden sigil and, under it, a small hinged door, carved smoothly into the wall, with no handle. If you touch this sigil for 1 minute, flip to the next page.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sRiddleSix}{
-  \s\MYname	{Riddle}
-  \s\MYloc	{-030}
-  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
 
-\emph{I sound from strings\\
-And sound like cords.\\
-What am I?\\}
-
-
-You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sAnswerSix}{
-  \s\MYname	{Answer}
-  \s\MYloc	{-030}
-  \s\MYtext	{Chords.}
-  \s\MYitems {\iEmerald{}}
-}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%
 %-032
 \NEW{Sign}{\sGameRoom}{
@@ -575,32 +833,7 @@ You have one chance at answering this riddle-- when you think you have the answe
   \s\MYtext	{This is a gorgeous Bluffmaster table, covered in navy velvet, with interesting, old-fashioned markings. Money for the ''pot'' should be gathered on this sign.}
   \s\MYitems {}
 }
-\NEW{Sign}{\sSigilSeven}{
-  \s\MYname	{Golden Sigil}
-  \s\MYloc	{-030}
-  \s\MYtext	{You see a curling, golden sigil and, under it, a small hinged door, carved smoothly into the wall, with no handle. If you touch this sigil for 1 minute, flip to the next page.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sRiddleSeven}{
-  \s\MYname	{Riddle}
-  \s\MYloc	{-030}
-  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
 
-\emph{Tiny, cold, metal, round,\\
-Disproportionately loud,\\
-I fall lighter than a knife\\
-And weigh greater than a life.\\
-What am I?\\}
-
-You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sAnswerSeven}{
-  \s\MYname	{Answer}
-  \s\MYloc	{-030}
-  \s\MYtext	{Coins.}
-  \s\MYitems {\iEmerald{}}
-}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%
 %-002
 \NEW{Sign}{\sBeach}{
@@ -609,58 +842,7 @@ You have one chance at answering this riddle-- when you think you have the answe
   \s\MYtext	{A sprawling expanse of soft, white sand. The gleaming Bay of Acheron stretches as far as you can see.}
   \s\MYitems {}
 }
-\NEW{Sign}{\sSigilFive}{
-  \s\MYname	{Golden Sigil}
-  \s\MYloc	{-002}
-  \s\MYtext	{You see a curling, golden sigil and, under it, a small hinged door, carved smoothly into the wall, with no handle. If you touch this sigil for 1 minute, flip to the next page.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sRiddleFive}{
-  \s\MYname	{Riddle}
-  \s\MYloc	{-002}
-  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
 
-\emph{I am the beginning of the end,\\
-and the end of time and space.\\
-I am essential to creation,\\
-and I surround every place.\\
-What am I?\\}
-
-You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sAnswerFive}{
-  \s\MYname	{Answer}
-  \s\MYloc	{-002}
-  \s\MYtext	{E.}
-  \s\MYitems {\iEmerald{}}
-}
-
-\NEW{Sign}{\sSigilFour}{
-  \s\MYname	{Golden Sigil}
-  \s\MYloc	{-002}
-  \s\MYtext	{You see a curling, golden sigil and, under it, a small hinged door, carved smoothly into the wall, with no handle. If you touch this sigil for 1 minute, flip to the next page.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sRiddleFour}{
-  \s\MYname	{Riddle}
-  \s\MYloc	{-002}
-  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
-
-\emph{My makers their old powers lend\\
-To veins where their blood still does wend,\\
-But I may break as well as mend.\\
-I'm hidden at this journey's end.\\}
-
-You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sAnswerFour}{
-  \s\MYname	{Answer}
-  \s\MYloc	{-002}
-  \s\MYtext	{Diadem.}
-  \s\MYitems {\iEmerald{}}
-}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%
 %Outside -002
 \NEW{Sign}{\sWoods}{
@@ -670,31 +852,6 @@ You have one chance at answering this riddle-- when you think you have the answe
   \s\MYitems {}
 }
 
-\NEW{Sign}{\sSigilThree}{
-  \s\MYname	{Golden Sigil}
-  \s\MYloc	{Outside -002}
-  \s\MYtext	{You see a curling, golden sigil and, under it, a small hinged door, carved smoothly into the wall, with no handle. If you touch this sigil for 1 minute, flip to the next page.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sRiddleThree}{
-  \s\MYname	{Riddle}
-  \s\MYloc	{Outside -002}
-  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
-
-\emph{Humans have long known me,\\
-Yet none have ever seen me,\\
-The loudest lash out at me,\\
-Like a child I talk back.\\}
-
-You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sAnswerThree}{
-  \s\MYname	{Answer}
-  \s\MYloc	{Outside -002}
-  \s\MYtext	{Echo.}
-  \s\MYitems {\iEmerald{}}
-}
 \NEW{Sign}{\sShrineOutside}{
   \s\MYname	{Shrine}
   \s\MYloc	{Outside - 002}
@@ -768,31 +925,7 @@ The Secretary-Consul of Assyria
   \s\MYitems {}
 }
 
-\NEW{Sign}{\sSigilTwo}{
-  \s\MYname	{Golden Sigil}
-  \s\MYloc	{Alcove by -015}
-  \s\MYtext	{You see a curling, golden sigil and, under it, a small hinged door, carved smoothly into the wall, with no handle. If you touch this sigil for 1 minute, flip to the next page.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sRiddleTwo}{
-  \s\MYname	{Riddle}
-  \s\MYloc	{Alcove by -015}
-  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
 
-\emph{Who makes it, has no need for it.\\
-Who buys it, has no use of it.\\
-Who uses it can neither see nor feel it.\\
-What is it? A . . .\\}
-
-You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sAnswerTwo}{
-  \s\MYname	{Answer}
-  \s\MYloc	{Alcove by -015}
-  \s\MYtext	{Casket/Coffin.}
-  \s\MYitems {\iEmerald{}}
-}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%
 %that little outlet by 034
@@ -807,33 +940,10 @@ To stealthily enter the kitchen, roll a d20. If you rolled at least 12, you succ
 \NEW{Sign}{\sKitchenInside}{
   \s\MYname	{Kitchen}
   \s\MYloc	{Alcove by 034}
-  \s\MYtext	{To examine the food being prepared, look in the envelope. You cannot eat the food while it is still in the kitchen. You also cannot steal or otherwise interact with the food, unless you know otherwise, and you cannot hide other items in the kitchen. If you dawdle here for more than 5 minutes, or if someone else alerts the cook to your presence, the cook throws you out, and you cannot attempt to re-enter for 20 minutes.}
+  \s\MYtext	{To examine the food being prepared, look in the envelope. You cannot eat the food while it is still in the kitchen, nor can you bring items from outside and hide them in the kitchen. You can however steal food from the kitchen. After placing your hand on this sign for 30 seconds, randomly pick one item from the envelope; you can put this item back or take it with you from the kitchen. This is an interruptible mechanic.
+  
+  If you dawdle here for more than 5 minutes, or if someone else alerts the cook to your presence, the cook throws you out, and you cannot attempt to re-enter for 20 minutes.}
   \s\MYitems {\iFruit{}\iFruit{}\iFruit{}\iFruit{}\iCake{}\iCake{}\iCake{}\iCake{}\iCake{}\iCake{}\iCake{}\iCake{}\iPastry{}\iPastry{}\iPastry{}\iPastry{}}
-}
-\NEW{Sign}{\sSigilOne}{
-  \s\MYname	{Golden Sigil}
-  \s\MYloc	{Outside -034}
-  \s\MYtext	{You see a curling, golden sigil and, under it, a small hinged door, carved smoothly into the wall, with no handle. If you touch this sigil for 1 minute, flip to the next page.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sRiddleOne}{
-  \s\MYname	{Riddle}
-  \s\MYloc	{Outside -034}
-  \s\MYtext	{Your wits are the key to this door. A riddle suddenly pops into your head; you may not discuss the riddle or its answer with anyone else:
-
-\emph{An iron horse with a flaxen tail.\\
-The faster the horse runs,\\
-the shorter his tail becomes.\\
-What is it?\\}
-
-You have one chance at answering this riddle-- when you think you have the answer, check the page below. If your answer is correct, the door will swing open, and you may open the envelope below and take anything you find inside. You cannot put anything else inside, and you cannot allow others to access the door in your stead. If your answer is incorrect, this door is forever locked to you.}
-  \s\MYitems {}
-}
-\NEW{Sign}{\sAnswerOne}{
-  \s\MYname	{Answer}
-  \s\MYloc	{Outside -034}
-  \s\MYtext	{A needle and thread.}
-  \s\MYitems {\iEmerald{}}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NEW{Sign}{\sCloset}{
